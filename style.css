@@ -1,0 +1,95 @@
+.login-container {
+    padding: 100px;
+}
+
+.user-picture>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.user-picture {
+    width: 100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.camera-icon {
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    position: absolute;
+    bottom: 10px;
+    right: -5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.chat-container {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 50px !important;
+}
+
+.message-box {
+    width: 45%;
+    background-color: #c7e3f9;
+    padding: 10px;
+    color: #667682;
+    border-radius: 5px;
+}
+
+.right-message {
+    background-color: #6daad7;
+    color: #141414;
+    margin-left: auto;
+}
+
+.chat-box {
+    padding: 10px;
+    height: 400px;
+    overflow: auto;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chat-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chat-icon:active {
+    opacity: 0.5;
+}
+
+.user-profile-chat {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #6daad7;
+}
+
+.user-email {
+    font-size: 14px;
+}
+
+.message-box>span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.chat-box {}
